@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
+require_relative "lib/player"
 
 
 class Battle < Sinatra::Base
